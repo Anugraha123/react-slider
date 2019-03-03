@@ -1,9 +1,11 @@
 import React from 'react'
 
+import Slider from './components/slider'
+
+import sliderData from './components/sliderData'
+
 const App = () => (
-	<div>
-		tes
-	</div>
+	<Slider data={sliderData} />
 )
 
 export default App
